@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
+    <title>Countdown Timer</title>
+    <!-- Link to the custom stylesheet -->
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="main">
+        <!-- Overlay for content -->
+        <div class="overlay">
+            <!-- Main title -->
+            <h1 class="title">I am Happy To See You in 2030</h1>
+            <!-- Countdown end date -->
+            <h3 class="title" id="end-date">03 January 2030 12:00:00</h3>
+            <!-- Countdown display in columns -->
+            <div class="col">
+                <!-- Days input field -->
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="">Days</label>
+                </div>
+                <!-- Hours input field -->
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="">Hours</label>
+                </div>
+                <!-- Minutes input field -->
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="">Minutes</label>
+                </div>
+                <!-- Seconds input field -->
+                <div>
+                    <input type="text" readonly value="0"><br>
+                    <label for="">Seconds</label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Include the JavaScript file for countdown functionality -->
+    <script src="js/app.js"></script>
+</body>
+</html>
